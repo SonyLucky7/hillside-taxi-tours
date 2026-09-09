@@ -79,7 +79,7 @@ const CarFleet = () => {
   const cars = [
     {
       name: 'Swift Dzire',
-      image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=600&h=400&fit=crop',
+      image: '/images/cars/swift-dzire.jpg',
       route: 'DZIRE MEGHALAYA RATE',
       rate: '16000',
       rateFormula: '4000/-×4=16000/-',
@@ -88,7 +88,7 @@ const CarFleet = () => {
     },
     {
       name: 'Ertiga',
-      image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&h=400&fit=crop',
+      image: '/images/cars/ertiga.jpg',
       route: 'ERTIGA GUWAHATI LOCAL',
       rate: '14000',
       rateFormula: '4000/-×14000/-',
@@ -96,7 +96,7 @@ const CarFleet = () => {
     },
     {
       name: 'Innova',
-      image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&h=400&fit=crop',
+      image: '/images/cars/innova.jpg',
       route: 'INNOVA GUWAHATI LOCAL',
       rate: '4500',
       rateFormula: 'RATE 4500/-×4500×1=4500/-',
@@ -104,15 +104,15 @@ const CarFleet = () => {
     },
     {
       name: 'Swift Dzire',
-      image: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&h=400&fit=crop',
+      image: '/images/cars/swift-dzire.jpg',
       route: 'GUWAHATI LOCAL RATE',
       rate: '3000',
       rateFormula: '3000/-×3000×1=3000/-',
       seats: 4,
     },
     {
-      name: 'Innova',
-      image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&h=400&fit=crop',
+      name: 'Innova Crysta',
+      image: '/images/cars/innova.jpg',
       route: 'INNOVA CRISTA KAZIRANGA & TAWANG & MEGHALAYA',
       rate: '66000',
       rateFormula: 'RATE 6000/-×6000×11=66000/-',
@@ -120,7 +120,7 @@ const CarFleet = () => {
     },
     {
       name: 'Ertiga',
-      image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop',
+      image: '/images/cars/ertiga.jpg',
       route: 'ERTIGA KAZIRANGA & TAWANG',
       rate: '35000',
       rateFormula: 'RATE 5000/-×5000×7= 35000/-',
