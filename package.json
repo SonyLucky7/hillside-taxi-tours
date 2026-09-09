@@ -113,7 +113,7 @@
   },
   "overrides": {
     "autumn-js": {
-      "better-auth": "-auth"
+      "better-auth": "$better-auth"
     }
   }
 }
