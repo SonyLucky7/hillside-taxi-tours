@@ -28,14 +28,15 @@ const CarCard = ({
         </div>
       )}
       
-      <div className="relative h-[200px] bg-gradient-to-br from-[#f8f8f8] to-[#eee] overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center p-4">
+      <div className="relative h-[200px] bg-white border-b border-[#f0f0f0] overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center px-3 py-2">
           <div className="relative w-full h-full transform group-hover:scale-105 transition-transform duration-500 ease-out">
             <Image
               src={image}
               alt={name}
               fill
               className="object-contain"
+              priority
             />
           </div>
         </div>
