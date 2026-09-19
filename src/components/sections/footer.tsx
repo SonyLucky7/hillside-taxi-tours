@@ -55,13 +55,13 @@ const Footer = () => {
       <div className="container mx-auto py-16">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 mb-12">
           <div className="lg:col-span-1">
-            <a href="/" className="block mb-6">
+            <a href="/" className="inline-block mb-6">
                 <Image 
                   src="/logo.svg" 
                   alt="Hillside Taxi Tours Logo" 
-                  width={140}
-                  height={52}
-                  className="object-contain"
+                  width={188}
+                  height={194}
+                  className="object-contain w-auto h-[60px]"
                 />
             </a>
             <p className="text-[15px] text-[#666] leading-[1.7] mb-6">

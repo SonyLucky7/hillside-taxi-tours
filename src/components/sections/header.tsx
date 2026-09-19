@@ -17,17 +17,17 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 glass-effect border-b border-white/10">
-        <div className="container mx-auto h-[110px] flex items-center justify-between">
+        <div className="container mx-auto h-[80px] lg:h-[88px] px-4 flex items-center justify-between">
           <a href="/" className="flex items-center relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-[#3AAFF8]/15 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-md" />
-<Image 
-                src={logoSrc} 
-                alt="Hillside Taxi Tours Logo" 
-                width={320} 
-                height={110} 
-                className="object-contain relative z-10 w-auto h-[95px]"
-                priority
-              />
+            <Image 
+              src={logoSrc} 
+              alt="Hillside Taxi Tours Logo" 
+              width={188} 
+              height={194} 
+              className="object-contain relative z-10 w-auto h-[50px] lg:h-[58px]"
+              priority
+            />
           </a>
 
         <nav className="hidden lg:flex items-center gap-2">
