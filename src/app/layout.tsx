@@ -7,6 +7,16 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Hillside Taxi Tours - Safe & Reliable Taxi Service",
   description: "Hillside Taxi Tours — Reliable & affordable Guwahati ⇄ Shillong taxi service. Door-to-door pickups, 24/7 support, trusted local drivers.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
