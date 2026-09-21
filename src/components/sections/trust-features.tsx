@@ -43,21 +43,19 @@ const TrustFeatures: React.FC = () => {
           <div className="relative w-full lg:w-1/2">
             <div className="absolute -inset-4 bg-gradient-to-r from-[#3AAFF8]/20 via-[#1787D3]/10 to-transparent rounded-[40px] blur-2xl" />
             
-            <div className="relative bg-gradient-to-br from-[#0a0a0a] to-[#1a1a1a] rounded-[32px] p-3 shadow-2xl">
-              <div className="relative rounded-[24px] overflow-hidden">
+            <div className="relative bg-white border border-[#3AAFF8]/20 rounded-[32px] p-3 shadow-[0_20px_50px_rgba(58,175,248,0.12)]">
+              <div className="relative rounded-[24px] overflow-hidden bg-white">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9ff98295-1b36-4c14-a7b8-42774c112f3d-hillsidetaxitours-com/assets/images/cc290fcd55655a8ff7f70fe9267a4e269639bd38-1.png"
-                  alt="Happy travelers in a car"
+                  src="/images/happy-travelers.png"
+                  alt="Happy travelers enjoying Hillside Taxi Tours"
                   width={600}
                   height={500}
                   className="w-full h-auto object-cover"
                   priority
                 />
                 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                
                 <div className="absolute bottom-6 left-6 right-6">
-                  <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-5 flex items-center justify-between">
+                  <div className="bg-white/95 backdrop-blur-md border border-gray-200/80 shadow-[0_12px_32px_rgba(0,0,0,0.08)] rounded-2xl p-5 flex items-center justify-between">
                     <div>
                       <p className="text-[24px] font-bold text-[#0a0a0a]">4.9/5</p>
                       <p className="text-[14px] text-[#666]">Average Rating</p>
